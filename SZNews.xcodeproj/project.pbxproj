@@ -1,519 +1,1170 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		DCC16E4C1CE31BF200BC2AF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC16E4B1CE31BF200BC2AF3 /* main.m */; };
-		DCC16E4F1CE31BF200BC2AF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC16E4E1CE31BF200BC2AF3 /* AppDelegate.m */; };
-		DCC16E521CE31BF200BC2AF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC16E511CE31BF200BC2AF3 /* ViewController.m */; };
-		DCC16E551CE31BF200BC2AF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC16E531CE31BF200BC2AF3 /* Main.storyboard */; };
-		DCC16E571CE31BF200BC2AF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC16E561CE31BF200BC2AF3 /* Assets.xcassets */; };
-		DCC16E5A1CE31BF200BC2AF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC16E581CE31BF200BC2AF3 /* LaunchScreen.storyboard */; };
-		DCC16E651CE31BF300BC2AF3 /* SZNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC16E641CE31BF300BC2AF3 /* SZNewsTests.m */; };
-		DCC16E701CE31BF300BC2AF3 /* SZNewsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC16E6F1CE31BF300BC2AF3 /* SZNewsUITests.m */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		DCC16E611CE31BF300BC2AF3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DCC16E3F1CE31BF200BC2AF3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DCC16E461CE31BF200BC2AF3;
-			remoteInfo = SZNews;
-		};
-		DCC16E6C1CE31BF300BC2AF3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DCC16E3F1CE31BF200BC2AF3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DCC16E461CE31BF200BC2AF3;
-			remoteInfo = SZNews;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		DCC16E471CE31BF200BC2AF3 /* SZNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SZNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCC16E4B1CE31BF200BC2AF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DCC16E4D1CE31BF200BC2AF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		DCC16E4E1CE31BF200BC2AF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DCC16E501CE31BF200BC2AF3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DCC16E511CE31BF200BC2AF3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DCC16E541CE31BF200BC2AF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DCC16E561CE31BF200BC2AF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DCC16E591CE31BF200BC2AF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DCC16E5B1CE31BF200BC2AF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DCC16E601CE31BF300BC2AF3 /* SZNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SZNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCC16E641CE31BF300BC2AF3 /* SZNewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZNewsTests.m; sourceTree = "<group>"; };
-		DCC16E661CE31BF300BC2AF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DCC16E6B1CE31BF300BC2AF3 /* SZNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SZNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCC16E6F1CE31BF300BC2AF3 /* SZNewsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZNewsUITests.m; sourceTree = "<group>"; };
-		DCC16E711CE31BF300BC2AF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		DCC16E441CE31BF200BC2AF3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DCC16E5D1CE31BF300BC2AF3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DCC16E681CE31BF300BC2AF3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		DCC16E3E1CE31BF200BC2AF3 = {
-			isa = PBXGroup;
-			children = (
-				DCC16E491CE31BF200BC2AF3 /* SZNews */,
-				DCC16E631CE31BF300BC2AF3 /* SZNewsTests */,
-				DCC16E6E1CE31BF300BC2AF3 /* SZNewsUITests */,
-				DCC16E481CE31BF200BC2AF3 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		DCC16E481CE31BF200BC2AF3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DCC16E471CE31BF200BC2AF3 /* SZNews.app */,
-				DCC16E601CE31BF300BC2AF3 /* SZNewsTests.xctest */,
-				DCC16E6B1CE31BF300BC2AF3 /* SZNewsUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		DCC16E491CE31BF200BC2AF3 /* SZNews */ = {
-			isa = PBXGroup;
-			children = (
-				DCC16E4D1CE31BF200BC2AF3 /* AppDelegate.h */,
-				DCC16E4E1CE31BF200BC2AF3 /* AppDelegate.m */,
-				DCC16E501CE31BF200BC2AF3 /* ViewController.h */,
-				DCC16E511CE31BF200BC2AF3 /* ViewController.m */,
-				DCC16E531CE31BF200BC2AF3 /* Main.storyboard */,
-				DCC16E561CE31BF200BC2AF3 /* Assets.xcassets */,
-				DCC16E581CE31BF200BC2AF3 /* LaunchScreen.storyboard */,
-				DCC16E5B1CE31BF200BC2AF3 /* Info.plist */,
-				DCC16E4A1CE31BF200BC2AF3 /* Supporting Files */,
-			);
-			path = SZNews;
-			sourceTree = "<group>";
-		};
-		DCC16E4A1CE31BF200BC2AF3 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				DCC16E4B1CE31BF200BC2AF3 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		DCC16E631CE31BF300BC2AF3 /* SZNewsTests */ = {
-			isa = PBXGroup;
-			children = (
-				DCC16E641CE31BF300BC2AF3 /* SZNewsTests.m */,
-				DCC16E661CE31BF300BC2AF3 /* Info.plist */,
-			);
-			path = SZNewsTests;
-			sourceTree = "<group>";
-		};
-		DCC16E6E1CE31BF300BC2AF3 /* SZNewsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DCC16E6F1CE31BF300BC2AF3 /* SZNewsUITests.m */,
-				DCC16E711CE31BF300BC2AF3 /* Info.plist */,
-			);
-			path = SZNewsUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		DCC16E461CE31BF200BC2AF3 /* SZNews */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DCC16E741CE31BF300BC2AF3 /* Build configuration list for PBXNativeTarget "SZNews" */;
-			buildPhases = (
-				DCC16E431CE31BF200BC2AF3 /* Sources */,
-				DCC16E441CE31BF200BC2AF3 /* Frameworks */,
-				DCC16E451CE31BF200BC2AF3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SZNews;
-			productName = SZNews;
-			productReference = DCC16E471CE31BF200BC2AF3 /* SZNews.app */;
-			productType = "com.apple.product-type.application";
-		};
-		DCC16E5F1CE31BF300BC2AF3 /* SZNewsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DCC16E771CE31BF300BC2AF3 /* Build configuration list for PBXNativeTarget "SZNewsTests" */;
-			buildPhases = (
-				DCC16E5C1CE31BF300BC2AF3 /* Sources */,
-				DCC16E5D1CE31BF300BC2AF3 /* Frameworks */,
-				DCC16E5E1CE31BF300BC2AF3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DCC16E621CE31BF300BC2AF3 /* PBXTargetDependency */,
-			);
-			name = SZNewsTests;
-			productName = SZNewsTests;
-			productReference = DCC16E601CE31BF300BC2AF3 /* SZNewsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		DCC16E6A1CE31BF300BC2AF3 /* SZNewsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DCC16E7A1CE31BF300BC2AF3 /* Build configuration list for PBXNativeTarget "SZNewsUITests" */;
-			buildPhases = (
-				DCC16E671CE31BF300BC2AF3 /* Sources */,
-				DCC16E681CE31BF300BC2AF3 /* Frameworks */,
-				DCC16E691CE31BF300BC2AF3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DCC16E6D1CE31BF300BC2AF3 /* PBXTargetDependency */,
-			);
-			name = SZNewsUITests;
-			productName = SZNewsUITests;
-			productReference = DCC16E6B1CE31BF300BC2AF3 /* SZNewsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		DCC16E3F1CE31BF200BC2AF3 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = ytuymu;
-				TargetAttributes = {
-					DCC16E461CE31BF200BC2AF3 = {
-						CreatedOnToolsVersion = 7.3;
-					};
-					DCC16E5F1CE31BF300BC2AF3 = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = DCC16E461CE31BF200BC2AF3;
-					};
-					DCC16E6A1CE31BF300BC2AF3 = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = DCC16E461CE31BF200BC2AF3;
-					};
-				};
-			};
-			buildConfigurationList = DCC16E421CE31BF200BC2AF3 /* Build configuration list for PBXProject "SZNews" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = DCC16E3E1CE31BF200BC2AF3;
-			productRefGroup = DCC16E481CE31BF200BC2AF3 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				DCC16E461CE31BF200BC2AF3 /* SZNews */,
-				DCC16E5F1CE31BF300BC2AF3 /* SZNewsTests */,
-				DCC16E6A1CE31BF300BC2AF3 /* SZNewsUITests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		DCC16E451CE31BF200BC2AF3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DCC16E5A1CE31BF200BC2AF3 /* LaunchScreen.storyboard in Resources */,
-				DCC16E571CE31BF200BC2AF3 /* Assets.xcassets in Resources */,
-				DCC16E551CE31BF200BC2AF3 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DCC16E5E1CE31BF300BC2AF3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DCC16E691CE31BF300BC2AF3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		DCC16E431CE31BF200BC2AF3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DCC16E521CE31BF200BC2AF3 /* ViewController.m in Sources */,
-				DCC16E4F1CE31BF200BC2AF3 /* AppDelegate.m in Sources */,
-				DCC16E4C1CE31BF200BC2AF3 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DCC16E5C1CE31BF300BC2AF3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DCC16E651CE31BF300BC2AF3 /* SZNewsTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DCC16E671CE31BF300BC2AF3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DCC16E701CE31BF300BC2AF3 /* SZNewsUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		DCC16E621CE31BF300BC2AF3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DCC16E461CE31BF200BC2AF3 /* SZNews */;
-			targetProxy = DCC16E611CE31BF300BC2AF3 /* PBXContainerItemProxy */;
-		};
-		DCC16E6D1CE31BF300BC2AF3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DCC16E461CE31BF200BC2AF3 /* SZNews */;
-			targetProxy = DCC16E6C1CE31BF300BC2AF3 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		DCC16E531CE31BF200BC2AF3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DCC16E541CE31BF200BC2AF3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DCC16E581CE31BF200BC2AF3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DCC16E591CE31BF200BC2AF3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		DCC16E721CE31BF300BC2AF3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-			};
-			name = Debug;
-		};
-		DCC16E731CE31BF300BC2AF3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		DCC16E751CE31BF300BC2AF3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SZNews/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ytuymu.SZNews;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		DCC16E761CE31BF300BC2AF3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SZNews/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ytuymu.SZNews;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		DCC16E781CE31BF300BC2AF3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = SZNewsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ytuymu.SZNewsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SZNews.app/SZNews";
-			};
-			name = Debug;
-		};
-		DCC16E791CE31BF300BC2AF3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = SZNewsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ytuymu.SZNewsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SZNews.app/SZNews";
-			};
-			name = Release;
-		};
-		DCC16E7B1CE31BF300BC2AF3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = SZNewsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ytuymu.SZNewsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = SZNews;
-			};
-			name = Debug;
-		};
-		DCC16E7C1CE31BF300BC2AF3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = SZNewsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ytuymu.SZNewsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = SZNews;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		DCC16E421CE31BF200BC2AF3 /* Build configuration list for PBXProject "SZNews" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DCC16E721CE31BF300BC2AF3 /* Debug */,
-				DCC16E731CE31BF300BC2AF3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DCC16E741CE31BF300BC2AF3 /* Build configuration list for PBXNativeTarget "SZNews" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DCC16E751CE31BF300BC2AF3 /* Debug */,
-				DCC16E761CE31BF300BC2AF3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		DCC16E771CE31BF300BC2AF3 /* Build configuration list for PBXNativeTarget "SZNewsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DCC16E781CE31BF300BC2AF3 /* Debug */,
-				DCC16E791CE31BF300BC2AF3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		DCC16E7A1CE31BF300BC2AF3 /* Build configuration list for PBXNativeTarget "SZNewsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DCC16E7B1CE31BF300BC2AF3 /* Debug */,
-				DCC16E7C1CE31BF300BC2AF3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = DCC16E3F1CE31BF200BC2AF3 /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>4456F51EA0BC895EC7A3966E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F368AA4907AAC5B0F38DFF4D</string>
+				<string>C614133AB720EFE0B6C19652</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5B0D0BF8B22721CDC4702666</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>8A361F1E420C3DD68FD33B42</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-SZNews/Pods-SZNews-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>97C56D96CB7D4A5EF8A48327</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>A5777ABD4967E218767DE8B8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9D645B5B9294CD2D288D332B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A5777ABD4967E218767DE8B8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A5777ABD4967E218767DE8B8</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-SZNews.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>C614133AB720EFE0B6C19652</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-SZNews.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-SZNews/Pods-SZNews.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D1D7DBE74BD7425631709C60</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-SZNews/Pods-SZNews-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>DCC16E3E1CE31BF200BC2AF3</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>DCC16E491CE31BF200BC2AF3</string>
+				<string>DCC16E631CE31BF300BC2AF3</string>
+				<string>DCC16E6E1CE31BF300BC2AF3</string>
+				<string>DCC16E481CE31BF200BC2AF3</string>
+				<string>4456F51EA0BC895EC7A3966E</string>
+				<string>97C56D96CB7D4A5EF8A48327</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DCC16E3F1CE31BF200BC2AF3</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0730</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>ytuymu</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>DCC16E461CE31BF200BC2AF3</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3</string>
+					</dict>
+					<key>DCC16E5F1CE31BF300BC2AF3</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3</string>
+						<key>TestTargetID</key>
+						<string>DCC16E461CE31BF200BC2AF3</string>
+					</dict>
+					<key>DCC16E6A1CE31BF300BC2AF3</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3</string>
+						<key>TestTargetID</key>
+						<string>DCC16E461CE31BF200BC2AF3</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>DCC16E421CE31BF200BC2AF3</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>DCC16E3E1CE31BF200BC2AF3</string>
+			<key>productRefGroup</key>
+			<string>DCC16E481CE31BF200BC2AF3</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>DCC16E461CE31BF200BC2AF3</string>
+				<string>DCC16E5F1CE31BF300BC2AF3</string>
+				<string>DCC16E6A1CE31BF300BC2AF3</string>
+			</array>
+		</dict>
+		<key>DCC16E421CE31BF200BC2AF3</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>DCC16E721CE31BF300BC2AF3</string>
+				<string>DCC16E731CE31BF300BC2AF3</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>DCC16E431CE31BF200BC2AF3</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>DCC16E521CE31BF200BC2AF3</string>
+				<string>DCC16E4F1CE31BF200BC2AF3</string>
+				<string>DCC16E4C1CE31BF200BC2AF3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>DCC16E441CE31BF200BC2AF3</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>9D645B5B9294CD2D288D332B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>DCC16E451CE31BF200BC2AF3</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>DCC16E5A1CE31BF200BC2AF3</string>
+				<string>DCC16E571CE31BF200BC2AF3</string>
+				<string>DCC16E551CE31BF200BC2AF3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>DCC16E461CE31BF200BC2AF3</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>DCC16E741CE31BF300BC2AF3</string>
+			<key>buildPhases</key>
+			<array>
+				<string>5B0D0BF8B22721CDC4702666</string>
+				<string>DCC16E431CE31BF200BC2AF3</string>
+				<string>DCC16E441CE31BF200BC2AF3</string>
+				<string>DCC16E451CE31BF200BC2AF3</string>
+				<string>8A361F1E420C3DD68FD33B42</string>
+				<string>D1D7DBE74BD7425631709C60</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SZNews</string>
+			<key>productName</key>
+			<string>SZNews</string>
+			<key>productReference</key>
+			<string>DCC16E471CE31BF200BC2AF3</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>DCC16E471CE31BF200BC2AF3</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>SZNews.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>DCC16E481CE31BF200BC2AF3</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>DCC16E471CE31BF200BC2AF3</string>
+				<string>DCC16E601CE31BF300BC2AF3</string>
+				<string>DCC16E6B1CE31BF300BC2AF3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DCC16E491CE31BF200BC2AF3</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>DCC16E4D1CE31BF200BC2AF3</string>
+				<string>DCC16E4E1CE31BF200BC2AF3</string>
+				<string>DCC16E501CE31BF200BC2AF3</string>
+				<string>DCC16E511CE31BF200BC2AF3</string>
+				<string>DCC16E531CE31BF200BC2AF3</string>
+				<string>DCC16E561CE31BF200BC2AF3</string>
+				<string>DCC16E581CE31BF200BC2AF3</string>
+				<string>DCC16E5B1CE31BF200BC2AF3</string>
+				<string>DCC16E4A1CE31BF200BC2AF3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>SZNews</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DCC16E4A1CE31BF200BC2AF3</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>DCC16E4B1CE31BF200BC2AF3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DCC16E4B1CE31BF200BC2AF3</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DCC16E4C1CE31BF200BC2AF3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DCC16E4B1CE31BF200BC2AF3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>DCC16E4D1CE31BF200BC2AF3</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DCC16E4E1CE31BF200BC2AF3</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>AppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DCC16E4F1CE31BF200BC2AF3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DCC16E4E1CE31BF200BC2AF3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>DCC16E501CE31BF200BC2AF3</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DCC16E511CE31BF200BC2AF3</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>ViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DCC16E521CE31BF200BC2AF3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DCC16E511CE31BF200BC2AF3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>DCC16E531CE31BF200BC2AF3</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>DCC16E541CE31BF200BC2AF3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DCC16E541CE31BF200BC2AF3</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DCC16E551CE31BF200BC2AF3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DCC16E531CE31BF200BC2AF3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>DCC16E561CE31BF200BC2AF3</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Assets.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DCC16E571CE31BF200BC2AF3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DCC16E561CE31BF200BC2AF3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>DCC16E581CE31BF200BC2AF3</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>DCC16E591CE31BF200BC2AF3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DCC16E591CE31BF200BC2AF3</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DCC16E5A1CE31BF200BC2AF3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DCC16E581CE31BF200BC2AF3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>DCC16E5B1CE31BF200BC2AF3</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DCC16E5C1CE31BF300BC2AF3</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>DCC16E651CE31BF300BC2AF3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>DCC16E5D1CE31BF300BC2AF3</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>DCC16E5E1CE31BF300BC2AF3</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>DCC16E5F1CE31BF300BC2AF3</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>DCC16E771CE31BF300BC2AF3</string>
+			<key>buildPhases</key>
+			<array>
+				<string>DCC16E5C1CE31BF300BC2AF3</string>
+				<string>DCC16E5D1CE31BF300BC2AF3</string>
+				<string>DCC16E5E1CE31BF300BC2AF3</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>DCC16E621CE31BF300BC2AF3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SZNewsTests</string>
+			<key>productName</key>
+			<string>SZNewsTests</string>
+			<key>productReference</key>
+			<string>DCC16E601CE31BF300BC2AF3</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>DCC16E601CE31BF300BC2AF3</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>SZNewsTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>DCC16E611CE31BF300BC2AF3</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>DCC16E3F1CE31BF200BC2AF3</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>DCC16E461CE31BF200BC2AF3</string>
+			<key>remoteInfo</key>
+			<string>SZNews</string>
+		</dict>
+		<key>DCC16E621CE31BF300BC2AF3</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>DCC16E461CE31BF200BC2AF3</string>
+			<key>targetProxy</key>
+			<string>DCC16E611CE31BF300BC2AF3</string>
+		</dict>
+		<key>DCC16E631CE31BF300BC2AF3</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>DCC16E641CE31BF300BC2AF3</string>
+				<string>DCC16E661CE31BF300BC2AF3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>SZNewsTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DCC16E641CE31BF300BC2AF3</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SZNewsTests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DCC16E651CE31BF300BC2AF3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DCC16E641CE31BF300BC2AF3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>DCC16E661CE31BF300BC2AF3</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DCC16E671CE31BF300BC2AF3</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>DCC16E701CE31BF300BC2AF3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>DCC16E681CE31BF300BC2AF3</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>DCC16E691CE31BF300BC2AF3</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>DCC16E6A1CE31BF300BC2AF3</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>DCC16E7A1CE31BF300BC2AF3</string>
+			<key>buildPhases</key>
+			<array>
+				<string>DCC16E671CE31BF300BC2AF3</string>
+				<string>DCC16E681CE31BF300BC2AF3</string>
+				<string>DCC16E691CE31BF300BC2AF3</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>DCC16E6D1CE31BF300BC2AF3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SZNewsUITests</string>
+			<key>productName</key>
+			<string>SZNewsUITests</string>
+			<key>productReference</key>
+			<string>DCC16E6B1CE31BF300BC2AF3</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.ui-testing</string>
+		</dict>
+		<key>DCC16E6B1CE31BF300BC2AF3</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>SZNewsUITests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>DCC16E6C1CE31BF300BC2AF3</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>DCC16E3F1CE31BF200BC2AF3</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>DCC16E461CE31BF200BC2AF3</string>
+			<key>remoteInfo</key>
+			<string>SZNews</string>
+		</dict>
+		<key>DCC16E6D1CE31BF300BC2AF3</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>DCC16E461CE31BF200BC2AF3</string>
+			<key>targetProxy</key>
+			<string>DCC16E6C1CE31BF300BC2AF3</string>
+		</dict>
+		<key>DCC16E6E1CE31BF300BC2AF3</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>DCC16E6F1CE31BF300BC2AF3</string>
+				<string>DCC16E711CE31BF300BC2AF3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>SZNewsUITests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DCC16E6F1CE31BF300BC2AF3</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SZNewsUITests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DCC16E701CE31BF300BC2AF3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DCC16E6F1CE31BF300BC2AF3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>DCC16E711CE31BF300BC2AF3</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DCC16E721CE31BF300BC2AF3</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>ENABLE_TESTABILITY</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>DCC16E731CE31BF300BC2AF3</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>DCC16E741CE31BF300BC2AF3</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>DCC16E751CE31BF300BC2AF3</string>
+				<string>DCC16E761CE31BF300BC2AF3</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>DCC16E751CE31BF300BC2AF3</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>F368AA4907AAC5B0F38DFF4D</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>INFOPLIST_FILE</key>
+				<string>SZNews/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.ytuymu.SZNews</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>DCC16E761CE31BF300BC2AF3</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>C614133AB720EFE0B6C19652</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>INFOPLIST_FILE</key>
+				<string>SZNews/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.ytuymu.SZNews</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>DCC16E771CE31BF300BC2AF3</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>DCC16E781CE31BF300BC2AF3</string>
+				<string>DCC16E791CE31BF300BC2AF3</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>DCC16E781CE31BF300BC2AF3</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>INFOPLIST_FILE</key>
+				<string>SZNewsTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.ytuymu.SZNewsTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/SZNews.app/SZNews</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>DCC16E791CE31BF300BC2AF3</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>INFOPLIST_FILE</key>
+				<string>SZNewsTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.ytuymu.SZNewsTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/SZNews.app/SZNews</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>DCC16E7A1CE31BF300BC2AF3</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>DCC16E7B1CE31BF300BC2AF3</string>
+				<string>DCC16E7C1CE31BF300BC2AF3</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>DCC16E7B1CE31BF300BC2AF3</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>INFOPLIST_FILE</key>
+				<string>SZNewsUITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.ytuymu.SZNewsUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>SZNews</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>DCC16E7C1CE31BF300BC2AF3</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>INFOPLIST_FILE</key>
+				<string>SZNewsUITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.ytuymu.SZNewsUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>SZNews</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>F368AA4907AAC5B0F38DFF4D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-SZNews.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-SZNews/Pods-SZNews.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>DCC16E3F1CE31BF200BC2AF3</string>
+</dict>
+</plist>
